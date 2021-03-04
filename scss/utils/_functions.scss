@@ -1,0 +1,13 @@
+/*
+* Return appropriate color depending on the background brightness.
+* @param (color) $light-color
+* @param (color) $dark-color
+* @param (color) $bg-color
+*/
+@function setColorBrightness($light-color, $dark-color, $bg-color) {
+  @if (lightness($bg-color) > 50) {
+    @return $dark-color; // Lighter background, return dark color
+  } @else {
+    @return $light-color; // Darker background, return light color
+  }
+}
