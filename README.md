@@ -1,4 +1,4 @@
-# Sass starting library
+# Sass starter
 
 ## Architecture
 

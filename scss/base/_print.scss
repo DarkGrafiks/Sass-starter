@@ -1,0 +1,23 @@
+@media print {
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    width: auto;
+    margin: auto;
+    font-family: serif;
+    font-size: 12pt;
+  }
+
+  .print {
+    display: block;
+  }
+
+  .no-print {
+    display: none;
+  }
+  
+}
