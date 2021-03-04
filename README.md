@@ -2,7 +2,7 @@
 
 ## Architecture
 
-- **base** : contient les fichiers définissant l'environnement de base.
+- **base** : contient les fichiers définissant l'environnement de base (reset, typo,...).
 - **components** : contient les composants de plus petite taille, réutilisable sur toute l'app.
 - **layouts** : contient les éléments principaux de l'app (header, main, footer, menu, ...).
 - **utils** : contient les variables, functions, mixins et autres.
