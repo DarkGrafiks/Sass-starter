@@ -1,0 +1,12 @@
+{
+  "name": "sass-model",
+  "version": "1.0.0",
+  "description": "- **base** : contient les fichiers définissant l'environnement de base.\r - **components** : contient les composants de plus petite taille, réutilisable sur toute l'app.\r - **layouts** : contient les éléments principaux de l'app (header, main, footer, menu, ...).\r - **utils** : contient les variables, functions, mixins et autres.\r - **pages** : contient les styles de mise en page propre à certaines pages.\r - **themes** : contient les fichiers liés au thèmes (couleurs, typo, ...).\r - **vendors** : contient les fichiers de style externes (librairies).",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/index.scss:./css/style.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
