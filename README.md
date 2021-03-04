@@ -2,10 +2,13 @@
 
 ## Architecture
 
-- **base** : contient les fichiers définissant l'environnement de base (reset, typo,...).
-- **components** : contient les composants de plus petite taille, réutilisable sur toute l'app.
-- **layouts** : contient les éléments principaux de l'app (header, main, footer, menu, ...).
-- **utils** : contient les variables, functions, mixins et autres.
-- **pages** : contient les styles de mise en page propre à certaines pages.
-- **themes** : contient les fichiers liés au thèmes (couleurs, typo, ...).
-- **vendors** : contient les fichiers de style externes (librairies). 
+- **base** : include all files defining the basic environment (reset, typo,...).
+- **components** : include all smallest components, reusable on entire app.
+- **layouts** : include all principal elements of app (header, main, footer, menu, ...).
+- **utils** : include all variables, functions, mixins and other...
+- **pages** : include all page styles.
+- **themes** : include all theme(s) files (colors, fonts, ...).
+- **vendors** : include all stylesheet external files.
+
+Inspirations :
+- [KNACSS](https://github.com/alsacreations/KNACSS)
